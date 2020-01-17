@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(175, 214, 230);
+  background-color:darkgray;
 }
 
 h1 {
@@ -8,6 +8,19 @@ h1 {
 
 h2 {
   text-align: center;
+  
+}
+
+.title {
+  border: solid lightblue 1px;
+}
+
+.avail {
+  background-color: darkgray;
+  color: yellow;
+  display: flex;
+  flex-grow: 1;
+  
 }
 
 .catalog {
@@ -15,14 +28,22 @@ h2 {
 }
 
 .product-card {
-  border: solid black 3px;
-  border-radius: 10px;
+  border: solid lightblue 1px;
+  background-color: white;
   width: 400px;
+  height: min-content;
   margin: 10px;
-  padding: 10px;
   flex-grow: 3;
+  box-shadow: 2px 2px;
+
 }
 
 img {
   width: 300px;
+  display: block;
+  margin: auto;
+}
+
+section {
+  padding: 3px;
 }
