@@ -1,3 +1,9 @@
+@media (max-width: 320px) {
+  .product-card {
+    flex: 1 48%;
+  }
+}
+
 .dark-primary-color    { background: #0097A7; }
 .default-primary-color { background: #00BCD4; }
 .light-primary-color   { background: #B2EBF2; }
@@ -40,6 +46,7 @@ footer {
   background-color: darkgray;
   color: yellow;
   margin: 0 -10px;
+  padding-left: 10px;
   
 }
 
@@ -49,10 +56,10 @@ footer {
 
 .product-card{
   border: solid lightblue 1px;
-  min-width: 300px;
+  box-shadow: 3px 3px;
   margin: 10px;
   flex-grow: 1;
-  box-shadow: 3px 3px;
+  flex-basis: 33%;
 
 }
 
@@ -80,3 +87,4 @@ section {
   left: 0;
   z-index: 1;
 }
+
