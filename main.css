@@ -51,7 +51,7 @@ footer {
   border: solid lightblue 1px;
   min-width: 300px;
   margin: 10px;
-  flex-grow: 3;
+  flex-grow: 1;
   box-shadow: 3px 3px;
 
 }
@@ -65,4 +65,18 @@ img {
 
 section {
   padding: 0 10px;
+}
+
+.sold-out-item {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.stamp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
