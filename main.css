@@ -1,5 +1,15 @@
+.dark-primary-color    { background: #0097A7; }
+.default-primary-color { background: #00BCD4; }
+.light-primary-color   { background: #B2EBF2; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: rgb(207, 167, 218); }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #77206b; }
+.divider-color         { border-color: #BDBDBD; }
+
+
 body {
-  background-color:darkgray;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -8,7 +18,18 @@ h1 {
 
 h2 {
   text-align: center;
-  
+}
+
+h3 {
+  text-align: justify;
+}
+
+p {
+  font-size: 10pt;
+}
+
+footer {
+  font-size: 8pt;
 }
 
 .title {
@@ -18,8 +39,7 @@ h2 {
 .avail {
   background-color: darkgray;
   color: yellow;
-  display: flex;
-  flex-grow: 1;
+  margin: 0 -10px;
   
 }
 
@@ -27,23 +47,22 @@ h2 {
   display: flex;
 }
 
-.product-card {
+.product-card{
   border: solid lightblue 1px;
-  background-color: white;
-  width: 400px;
-  height: min-content;
+  min-width: 300px;
   margin: 10px;
   flex-grow: 3;
-  box-shadow: 2px 2px;
+  box-shadow: 3px 3px;
 
 }
 
 img {
-  width: 300px;
+  height: 200px;
   display: block;
   margin: auto;
+  padding-top: 10px;
 }
 
 section {
-  padding: 3px;
+  padding: 0 10px;
 }
