@@ -20,6 +20,12 @@ Using hard-coded HTML and CSS styles, design a web page that displays a grid of 
 >  - [x] Pick font(s) from [Google Fonts](https://fonts.google.com/) and include them in your project
 >  - [x] Place a 'Sold Out' image in front of the card of an item that is unavailable (related to z-index and absolute positioning)
 
-
 ### Screenshot:
 ![screenshot](screenshots/Product-cards-screenshot-1.png)
+
+### Instructions to Run:
+1. If you do not have npm http-server installed, follow instuctions [here](https://www.npmjs.com/package/http-server) to install on your device
+1. Use GitHub's [Cloning Feature](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to download a local copy of the files for this project
+1. In your command line interface, change directory into the folder that contains your copied files
+1. Enter command: `http-server -p 8080` or `hs -p 8080`
+1. The project will now render in your browser at url: `http://localhost:8080`
