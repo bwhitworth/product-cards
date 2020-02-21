@@ -10,10 +10,10 @@ Using hard-coded HTML and CSS styles, design a web page that displays a grid of 
 
 #### Exercise Requirements
 > Specific styling criteria, such as:
->  - "each card should be a `div`"
->  - "cards should be three per row"
->  - "entire card should have a box shadow"
->  - "card title has a solid 1px border that is `lightblue`"
+>  - each card should be a `div`
+>  - cards should be three per row
+>  - entire card should have a box shadow
+>  - card title has a solid 1px border that is `lightblue`
 
 #### Bonus Challenges Completed
 >  - [x] Design your application with interesting, complementary colors
